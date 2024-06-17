@@ -1,5 +1,5 @@
 import { Container, Text, VStack, Heading, Box, Image, Button } from "@chakra-ui/react";
-import { FaKangaroo } from "react-icons/fa";
+import { FaArrowRight } from "react-icons/fa";
 
 const Index = () => {
   return (
@@ -14,7 +14,7 @@ const Index = () => {
         <Text fontSize="lg" textAlign="center">
           Discover the amazing world of kangaroos. Learn about their habitat, behavior, and more!
         </Text>
-        <Button colorScheme="teal" size="lg" leftIcon={<FaKangaroo />}>
+        <Button colorScheme="teal" size="lg" leftIcon={<FaArrowRight />}>
           Learn More
         </Button>
       </VStack>
